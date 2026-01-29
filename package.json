@@ -1,14 +1,28 @@
 {
-  "name": "Algorithm Visualizer",
+  "name": "algorithm-visualizer",
   "version": "1.0.0",
-  "description": "",
+  "description": "A simple algorithm viewer to help comprehend how different algos work and their application",
   "main": "dist/index.js",
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "start": "lite-server"
   },
-  "dependencies": {},
   "devDependencies": {
-    "typescript": "^5.5.3"
+    "gh-pages": "^6.3.0",
+    "lite-server": "^2.6.1",
+    "typescript": "^5.9.3"
   },
-  "private": true
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TariqTheCoder/Algorithm-Visualizer.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/TariqTheCoder/Algorithm-Visualizer/issues"
+  },
+  "homepage": "https://github.com/TariqTheCoder/Algorithm-Visualizer#readme"
 }
